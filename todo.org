@@ -1,0 +1,8 @@
+* Minimally Viable
+
+** Make a tree of possible solutions
+
+** Display the statistics of which problems the user tends to get right
+
+
+* Done
