@@ -23,6 +23,12 @@
 .display-none {
   display: none; }
 
+.standard-margin-bottom {
+  margin-bottom: 1rem; }
+
+.large-standard-margin-bottom {
+  margin-bottom: 4rem; }
+
 /* -------------------- End Misc -------------------- */
 
 /*# sourceMappingURL=styles.css.map */
