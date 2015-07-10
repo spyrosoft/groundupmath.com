@@ -29,6 +29,10 @@ function generate_problem()
 {
 	var new_problem;
 	var which_arithmetic_function = choose_available_arithmetic_function();
+	if ( !which_arithmetic_function )
+	{
+		return;
+	}
 	new_problem = which_arithmetic_function();
 	update_problem( new_problem );
 }
