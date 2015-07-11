@@ -3,9 +3,16 @@
 
 * Feature Requests
 
+** When an answer begins to be typed in and is fewer characters than the answer, compare the characters one at a time starting at the front - mark the answer wrong if it doesn't match at any point
+
+** If problems exist which haven't been displayed yet, generate them or those marked incorrect - otherwise tend to generate problems marked incorrect more frequently than others
+
+** Avoid generating the same problem twice in a row
+
+
+* Done
+
 ** Make a tree of possible solutions
 
 ** Display the statistics of which problems the user tends to get right
 
-
-* Done
