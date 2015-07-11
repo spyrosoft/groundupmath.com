@@ -57,6 +57,7 @@ function initialize_event_listeners()
 	$( '#settings-button' ).click( toggle_settings );
 	$( '#statistics-button' ).click( toggle_statistics );
 	$( '.which-arithmetic' ).click( generate_problem );
+	$( '.statistics-settings input[type="radio"]' ).click( update_arithmetic_table );
 }
 
 function generate_problem()
@@ -70,7 +71,7 @@ function generate_problem()
 	
 	var new_problem = look_up_arithmetic_function( which_arithmetic )();
 	update_problem( new_problem );
-	select_arithmetic_table( which_arithmetic );
+	update_arithmetic_table();
 }
 
 function choose_available_arithmetic()
@@ -327,9 +328,10 @@ function hide_settings()
 
 function toggle_statistics()
 {
-	if ( $( '.arithmetic-table-wrapper' ).hasClass( 'display-none' ) )
+	if ( $( '.statistics' ).hasClass( 'display-none' ) )
 	{
 		hide_settings();
+		update_arithmetic_table();
 		show_statistics();
 	}
 	else
@@ -340,13 +342,13 @@ function toggle_statistics()
 
 function show_statistics()
 {
-	$( '.arithmetic-table-wrapper' ).removeClass( 'display-none' )
+	$( '.statistics' ).removeClass( 'display-none' )
 	$( '#statistics-button' ).html( 'Close Statistics' );
 }
 
 function hide_statistics()
 {
-	$( '.arithmetic-table-wrapper' ).addClass( 'display-none' );
+	$( '.statistics' ).addClass( 'display-none' );
 	$( '#statistics-button' ).html( 'Statistics' );
 }
 
@@ -356,6 +358,24 @@ function clear_user_input()
 }
 
 /* -------------------- Arithmetic Table -------------------- */
+
+function update_arithmetic_table()
+{
+	if ( $( '#statistics' ).hasClass( 'display-none' ) )
+	{
+		return;
+	}
+	
+	var which_statistics_arithmetic = $( '.statistics-settings input[type="radio"]:checked' ).val();
+	if ( which_statistics_arithmetic === 'automatic' )
+	{
+		select_arithmetic_table( current_which_arithmetic );
+	}
+	else
+	{
+		select_arithmetic_table( which_statistics_arithmetic );
+	}
+}
 
 function select_arithmetic_table( which_arithmetic )
 {

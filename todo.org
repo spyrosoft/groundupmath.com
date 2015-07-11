@@ -12,8 +12,6 @@
 
 ** Avoid generating the same problem twice in a row
 
-** Make radio buttons for displaying statistics - +, -, x, ÷, and Automatic
-
 
 * Reaching For the Stars
 
@@ -27,4 +25,8 @@
 ** Display the statistics of which problems the user tends to get right
 
 ** When an answer begins to be typed in and is fewer characters than the answer, compare the characters one at a time starting at the front - mark the answer wrong if it doesn't match at any point
+
+** Make radio buttons for displaying statistics - +, -, x, ÷, and Automatic
+
+** Only generate the statistics tree if statistics is visible
 
