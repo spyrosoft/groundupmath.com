@@ -8,14 +8,9 @@
 
 * Feature Requests
 
-** If problems exist which haven't been displayed yet, generate them or those marked incorrect - otherwise tend to generate problems marked incorrect more frequently than others
-
-** Avoid generating the same problem twice in a row
-
-
-* Reaching For the Stars
-
 ** Create a visual representation of the problem
+
+** If problems exist which haven't been displayed yet, generate them or those marked incorrect - otherwise tend to generate problems marked incorrect more frequently than others
 
 
 * Done
@@ -29,4 +24,7 @@
 ** Make radio buttons for displaying statistics - +, -, x, ÷, and Automatic
 
 ** Only generate the statistics tree if statistics is visible
+
+** Avoid generating the same problem twice in a row
+	 If the same question is generated 1000 times in a row, it needs to be used to avoid an infinite loop
 

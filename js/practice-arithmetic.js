@@ -1,4 +1,6 @@
 var current_which_arithmetic;
+var current_problem;
+var same_problem_count = 0;
 var correct_first_number;
 var correct_second_number;
 var correct_answer;
@@ -70,8 +72,28 @@ function generate_problem()
 	}
 	
 	var new_problem = look_up_arithmetic_function( which_arithmetic )();
+	if ( check_if_same_problem( new_problem ) )
+	{
+		return;
+	}
+	
+	same_problem_count = 0;
 	update_problem( new_problem );
 	update_arithmetic_table();
+}
+
+function check_if_same_problem( new_problem )
+{
+	if ( new_problem === current_problem )
+	{
+		same_problem_count++;
+		if ( same_problem_count < 1000 )
+		{
+			generate_problem();
+			return true;
+		}
+	}
+	return false;
 }
 
 function choose_available_arithmetic()
@@ -361,7 +383,7 @@ function clear_user_input()
 
 function update_arithmetic_table()
 {
-	if ( $( '#statistics' ).hasClass( 'display-none' ) )
+	if ( $( '.statistics' ).hasClass( 'display-none' ) )
 	{
 		return;
 	}
@@ -379,6 +401,11 @@ function update_arithmetic_table()
 
 function select_arithmetic_table( which_arithmetic )
 {
+	if ( which_arithmetic === 'division' )
+	{
+		alert( 'Division statistics do not display properly yet. We\'re working on it!' );
+		return;
+	}
 	$( '.arithmetic-table' ).html( '' );
 	populate_arithmetic_table( which_arithmetic );
 }
