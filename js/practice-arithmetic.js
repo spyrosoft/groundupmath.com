@@ -195,7 +195,18 @@ function check_user_input()
 	}
 	else if ( user_input.toString().length < correct_answer.toString().length )
 	{
-		return;
+		var correct_answer_string = correct_answer.toString();
+		var user_input_string = user_input.toString();
+		if ( correct_answer_string.substr( 0, user_input_string.length ) === user_input_string )
+		{
+			return;
+		}
+		else
+		{
+			mark_incorrect_answer();
+			notify_user_incorrect();
+			clear_user_input();
+		}
 	}
 	else
 	{
