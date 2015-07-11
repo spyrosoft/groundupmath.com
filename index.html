@@ -25,47 +25,51 @@
 		<div class="row">
 			<div class="columns">
 				<button id="settings-button">Close Settings</button>
+				<button id="statistics-button">Statistics</button>
 			</div>
 		</div>
-		<fieldset class="row large-standard-margin-bottom" id="settings">
+		<fieldset class="row large-standard-spacing-bottom" id="settings">
 			<legend>Settings</legend>
 			<div class="columns large-3 medium-3 small-3">
 				<input type="checkbox" value="addition" id="which-arithmetic-addition" class="which-arithmetic">
 				<label for="which-arithmetic-addition">Addition</label>
 				<hr>
 				<label for="addition-upper-limit">Upper Limit</label>
-				<input type="text" id="addition-upper-limit" value="12">
+				<input type="text" class="upper-or-lower-limit" id="addition-upper-limit" value="12">
 				<label for="addition-lower-limit">Lower Limit</label>
-				<input type="text" id="addition-lower-limit" value="0">
+				<input type="text" class="upper-or-lower-limit" id="addition-lower-limit" value="0">
 			</div>
 			<div class="columns large-3 medium-3 small-3">
 				<input type="checkbox" value="subtraction" id="which-arithmetic-subtraction" class="which-arithmetic" checked="checked">
 				<label for="which-arithmetic-subtraction">Subtraction</label>
 				<hr>
 				<label for="subtraction-upper-limit">Upper Limit</label>
-				<input type="text" id="subtraction-upper-limit" value="12">
+				<input type="text" class="upper-or-lower-limit" id="subtraction-upper-limit" value="12">
 				<label for="subtraction-lower-limit">Lower Limit</label>
-				<input type="text" id="subtraction-lower-limit" value="0">
+				<input type="text" class="upper-or-lower-limit" id="subtraction-lower-limit" value="0">
 			</div>
 			<div class="columns large-3 medium-3 small-3">
 				<input type="checkbox" value="multiplication" id="which-arithmetic-multiplication" class="which-arithmetic">
 				<label for="which-arithmetic-multiplication">Multiplication</label>
 				<hr>
 				<label for="multiplication-upper-limit">Upper Limit</label>
-				<input type="text" id="multiplication-upper-limit" value="12">
+				<input type="text" class="upper-or-lower-limit" id="multiplication-upper-limit" value="12">
 				<label for="multiplication-lower-limit">Lower Limit</label>
-				<input type="text" id="multiplication-lower-limit" value="0">
+				<input type="text" class="upper-or-lower-limit" id="multiplication-lower-limit" value="0">
 			</div>
 			<div class="columns large-3 medium-3 small-3">
 				<input type="checkbox" value="division" id="which-arithmetic-division" class="which-arithmetic">
 				<label for="which-arithmetic-division">Division</label>
 				<hr>
 				<label for="division-upper-limit">Upper Limit</label>
-				<input type="text" id="division-upper-limit" value="12">
+				<input type="text" class="upper-or-lower-limit" id="division-upper-limit" value="12">
 				<label for="division-lower-limit">Lower Limit</label>
-				<input type="text" id="division-lower-limit" value="1">
+				<input type="text" class="upper-or-lower-limit" id="division-lower-limit" value="1">
 			</div>
 		</fieldset>
+		<div class="arithmetic-table-wrapper large-standard-spacing-bottom display-none">
+			<div class="arithmetic-table"></div>
+		</div>
 	</div>
 	<script>$(document).foundation();</script>
 </body>

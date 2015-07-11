@@ -19,14 +19,30 @@
 .correct {
   color: #00aa00; }
 
+/* -------------------- Arithmetic Table -------------------- */
+.arithmetic-table-wrapper {
+  text-align: center;
+  margin-bottom: 4rem; }
+
+.arithmetic-table {
+  margin: 0 auto; }
+
+.arithmetic-table-cell {
+  display: inline-block;
+  padding: 0.5rem;
+  text-align: right;
+  font-family: monospace;
+  font-weight: bold; }
+
+/* -------------------- Arithmetic Table -------------------- */
 /* -------------------- Misc -------------------- */
 .display-none {
   display: none; }
 
-.standard-margin-bottom {
+.standard-spacing-bottom {
   margin-bottom: 1rem; }
 
-.large-standard-margin-bottom {
+.large-standard-spacing-bottom {
   margin-bottom: 4rem; }
 
 /* -------------------- End Misc -------------------- */

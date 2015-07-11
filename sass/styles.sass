@@ -1,5 +1,6 @@
-$standard-margin: 1rem
-$large-standard-margin: 4rem
+$standard-spacing: 1rem
+$half-standard-spacing: 0.5rem
+$large-standard-spacing: 4rem
 
 $medium-font-size: 6rem
 $huge-font-size: 8rem
@@ -7,7 +8,7 @@ $huge-font-size-plus: 10rem
 
 .problem-output
 	display: inline-block
-	margin: $standard-margin auto
+	margin: $standard-spacing auto
 	text-align: right
 	font-size: $huge-font-size
 	line-height: $huge-font-size
@@ -28,15 +29,35 @@ $huge-font-size-plus: 10rem
 
 
 
+/* -------------------- Arithmetic Table -------------------- */
+
+.arithmetic-table-wrapper
+	text-align: center
+	margin-bottom: $large-standard-spacing
+
+.arithmetic-table
+	margin: 0 auto
+
+.arithmetic-table-cell
+	display: inline-block
+	padding: $half-standard-spacing
+	text-align: right
+	font-family: monospace
+	font-weight: bold
+
+/* -------------------- Arithmetic Table -------------------- */
+
+
+
 /* -------------------- Misc -------------------- */
 
 .display-none
 	display: none
 
-.standard-margin-bottom
-	margin-bottom: $standard-margin
+.standard-spacing-bottom
+	margin-bottom: $standard-spacing
 
-.large-standard-margin-bottom
-	margin-bottom: $large-standard-margin
+.large-standard-spacing-bottom
+	margin-bottom: $large-standard-spacing
 
 /* -------------------- End Misc -------------------- */
