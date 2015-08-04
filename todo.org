@@ -12,6 +12,8 @@
 
 ** If problems exist which haven't been displayed yet, generate them or those marked incorrect - otherwise tend to generate problems marked incorrect more frequently than others
 
+** Make the prompt and answer font size fit on mobile
+
 
 * Done
 
