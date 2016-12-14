@@ -1,0 +1,15 @@
+When a textbook describes the definition of something, what it should also do is list cases which are, cases which aren't and why.
+
+When creatintg practice problems, text books tend to throw darts at a dart board for which section to review or tactics to use.  Specific points should be catalogued and grouped and ordered.
+
+Once a textbook is completed, the creators fail to do field testing.  By field testing, what I mean is, sit down one-on-one with a student who has never touched the material before, and watch them go through the entire book, answering questions as they come up.  If they did this, they would notice particular places that students are hung up on, and (hopefully) find out that although the way it is worded in the book is very precice, it is not conducive to learning, among other things that I wouldn't be able to predict.
+
+It is the author's goal to put definitions into words that are exactly what they are trying to explain, concisely as possible.  Rather than doing this, it would be most helpful to walk through all steps of an example, possibly highlighting the less redundant/more important information.  This is a good thing; it's a clear, well defined sentence.  However, from the viewpoint of someone who has never conceptualized anything like it before, it is incredibly cryptic and requires deciphering.
+
+Explanations are written in advanced mathy english.  They should be written verbatim as someone explaining them to someone who knows nothing about them.
+
+Practice problems are given without a method of immediately telling the person if what he/she did is wrong.  This helps immensely to establish how to do it right.
+
+Practice problems rarely have solutions, let alone step by step solutions.
+
+There are a limited number of practice problems.

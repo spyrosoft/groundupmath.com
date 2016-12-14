@@ -1,0 +1,41 @@
+There should be an option for deadlines.
+
+There should be a ranking system of some sort.
+
+"Choose a personality for this lesson" - "Get to the point", "Detailed", "Funny", ... and have an option to always use a certain personality.
+
+When stating theorems (if this ever comes up), after each one, explain when what cases each axiom is true for and which each axiom is not true for.
+
+When a complicated idea has been explained and there boils down to a simple equivalent, display an optional graphic of the complicated formula being ground up and turned into the simple version.
+
+Prompt "How would you...?"  Make something relevant to make them really want to know how to accomplish this task.  At each step have a "Why?" button which goes into verbal detail of what is happening.
+
+Ground Up Math should focus on the practical, real life applications of everything covered.  When creating problems, this should be in the back of your mind.
+
+When a user types in a "That's true, but that's not what we're looking for" value, send an email with that problem and solution in order to add that specific case to clarify what answer we're looking for or to confirm that it is what we're looking for.
+
+Have a button to ask a question at a certain point in a problem set.  If the question is answered by the text, but the demographic seems to still not get it, create a list of answers to questions that sound similar to the one asked by the user if there are any close enough, and include these in all other locations throughout the problem set that it applies to.
+
+At the end of a tutorial section, have a "Could you explain this differently?" button when it is possible to organize the information a little differently.  (The way Larrabee does it.)
+
+The basis for ground up math is to take each section of math from the most basic up, have someone completely understand it, then take the image in their head and spell it out concisely and all encompasingly in the form of tutorials paired with infinite (if possible) practice problems.
+
+Have a proof button when applicable to a proof that has not been covered yet.  This should include a list of all proofs that this proof depends on in order.  There should be links in the proof when referring to these proofs.
+
+Make lessons with the current settings exportable in PDF.
+
+Have tutorial mode only and tutorial plus practice mode option available.  If the user has never done a problem all the way through on their own and clicks for the next section, prompt them "Try this problem from memory", "Next section".
+
+Maybe make Practical and Theoretical sections under each category (Calc, algebra, etc.).  Practical has real life problems, theoretical is aimed more at proofs, etc.
+
+In the beginning, before there are moderators, have a suggested problem link for every page.
+
+Spec out everything: ways to make a problem can be easier or harder, specific tactics to solving problems most efficiently, real life examples, etc.
+
+Have as many equivalent methods of describing something as possible.  Order them in the most to least widely capable of learning.  
+
+When giving an example, ask yourself the question "Why?" relentlessly.  Someone who knows nothing about the subject would do the same.  What this accomplishes is ensurance that every aspect of the current idea has been discussed.  For people that understand things, it is often easy to leave out what seems obvious to them that someone who has never touched the subject before hasn't ever thought of before.
+
+Other related thought: just state it the way it is.  "Say what it is."
+
+Cashier tutorial

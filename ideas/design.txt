@@ -1,0 +1,9 @@
+: Global
+White background
+Greys
+Fade out text when not hovering in order to minimize distraction from the content.
+Have a navigation that displays itself upon hovering, maybe at the bottom of the page.
+
+: Homepage
+Animate a dandelion/cotton like seed floating down to the ground, planting itself, growing, sprouting, and eventually bearing fruit.  Each part of the tree should have a category.  Upon hovering, it should show up more clearly.
+Maybe have Math From The Ground Up with Math touching the ground and each succeeding word on top of the other.
