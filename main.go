@@ -14,5 +14,5 @@ var (
 func main() {
 	router := httprouter.New()
 	router.NotFound = http.HandlerFunc(serveStaticFilesOr404)
-	log.Fatal(http.ListenAndServe(":8083", router))
+	log.Fatal(http.ListenAndServe(":8086", router))
 }
